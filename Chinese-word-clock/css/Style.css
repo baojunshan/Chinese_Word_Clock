@@ -1,0 +1,62 @@
+﻿
+@font-face {
+    src: url(../fonts/abel-webfont.woff2) format('woff2'), url(../fonts/abel-webfont.woff) format('woff'), url(../fonts/Abel.ttf) format('ttf'), url('https://fonts.googleapis.com/css?family=Abel');
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    background-image: url(../img/1.png);
+    font-family: 'Abel', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.numberRow {
+    transition: transform 350ms, -webkit-transform 350ms;
+    -webkit-transition: -webkit-transform 350ms;
+    transition: -webkit-transform 350ms;
+    transition: transform 350ms;
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.colon {
+    transform: translateY(calc(50vh - 85px));
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+}
+
+.clock {
+    position: fixed;
+    left: 60%;
+}
+
+.number {
+    -webkit-transition: text-shadow 150ms, opacity 600ms;
+    transition: text-shadow 150ms, opacity 600ms;
+    height: 80px;
+}
+
+.distance1 {
+    text-shadow: 1px 1px #15D7FC;
+    opacity: 1.0;
+}
+
+.distance2 {
+    opacity: 0.40;
+}
+
+.distance3 {
+    opacity: 0.20;
+}
+
+.distance4 {
+    opacity: 0.1;
+}
