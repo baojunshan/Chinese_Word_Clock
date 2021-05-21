@@ -1,2 +1,2 @@
-# Chinese_Word_Clock
+# chinese-word-clock
 中文风文字钟
